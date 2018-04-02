@@ -11,8 +11,6 @@ import org.springframework.test.context.junit4.SpringRunner;
 /**
  * 描述: 测试消费远程服务
  *
- * @author yanpenglei
- * @create 2017-10-27 14:15
  **/
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = Startup.class)
@@ -23,6 +21,7 @@ public class ConsumerTest {
 
     @Test
     public void sayHello(){
-        consumerDemoService.sayHello("Peng Lei");
+        consumerDemoService.sayHello("Piter");
     }
 }
+
